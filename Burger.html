@@ -1,0 +1,270 @@
+<!DOCTYPE html
+>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Burger Review</title>
+        <style>
+            body{
+background-image: url(https://t3.ftcdn.net/jpg/02/79/76/44/360_F_279764451_WDyCf1dvN9l72jYe7xPGqWhLifiv7ojU.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:100% 100%;
+width: 100%;
+height: 100%;
+ }
+.star_rating {
+user-select: none;
+}
+.star{
+font-size: 3rem;
+color: #fcb03e;
+background-color: unset;
+border: none;
+
+
+}
+.star:hover {
+cursor: pointer;
+}
+table{
+      margin:-15% 10% 10% 25%;
+  }          
+        </style>
+       
+        
+    </head>
+    <body>
+        <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McDonald%27s_logo.svg/2560px-McDonald%27s_logo.svg.png" width="20%"> 
+        
+
+<div class=“star_rating”>
+<button class="star">&#9734;</button>
+<button class="star">&#9734;</button>
+<button class="star">&#9734;</button>
+<button class="star">&#9734;</button>
+</div>
+<script>
+const allSatrs = document.querySelectorAll('.star');
+
+allSatrs.forEach((star,i)=> {
+star.onclick= function(){
+    let current_star_level= i+1;
+    allSatrs.forEach((star,j) =>{
+        if(current_star_level>= j+1){
+            star.innerHTML='&#9733';}
+            else{
+                star.innerHTML='&#9734';
+            }
+        })
+    }
+})
+    
+
+
+</script>
+        </div>
+
+
+        <table border="1" width="50%"  align="center" height="10%" style="border-collapse: collapse;"  > 
+            
+            <caption style="background-color:rgb(167, 212, 116) ;"> <h2>Macdonald  </h2></caption> 
+        
+            <thead style="background-color:khaki;">
+                <tr>
+                    <th> Taste</td>
+                   <th> Price</td>
+                   <th> Size</td>
+                   <th> Packaging</td>
+                   
+                </tr>
+                </thead>
+                <tbody style="background-color: khaki;">
+                    <tr>
+                        <td> 10/10</td>
+                        <td> Moderate</td>
+                        <td> 8/10</td>
+                        <td>9/10 </td>
+                    </tr>
+                </tbody>
+                <tfoot style="background-color:rgb(152, 182, 152);">
+                    <tr>
+                        <th colspan="4"> Best price for the service quality</th>
+                    </tr>
+                </tfoot>
+               
+              
+           </table> 
+           <div>
+            <img src="https://logowik.com/content/uploads/images/hardees1960.jpg" width="20%"> 
+            <div class=“star_rating”>
+               <button class="star">&#9734;</button>
+               <button class="star">&#9734;</button>
+               <button class="star">&#9734;</button>
+               <button class="star">&#9734;</button>
+               </div>
+               <script>
+               const alSatrs = document.querySelectorAll('.star');
+               
+               alSatrs.forEach((star,i)=> {
+               star.onclick= function(){
+                   let current_star_level= i+1;
+                   alSatrs.forEach((star,j) =>{
+                       if(current_star_level>= j+1){
+                           star.innerHTML='&#9733';}
+                           else{
+                               star.innerHTML='&#9734';
+                           }
+                       })
+                   }
+               })
+            </script>
+     <table border="1" width="50%"  align="center" height="10%" style="border-collapse: collapse;">
+            
+        <caption  style="background-color:rgb(167, 212, 116) ;"> <h1>Hardee's</h1></caption><br>
+    
+        
+     <thead style="background-color:khaki;">
+     <tr>
+         <th> Taste</td>
+        <th> Price</td>
+        <th> Size</td>
+        <th> Packaging</td>
+        
+     </tr>
+     </thead>
+     <tbody style="background-color: khaki;">
+         <tr>
+             <td> 9.5/10</td>
+             <td>High </td>
+             <td> 8/10</td>
+             <td> 10/10</td>
+         </tr>
+     </tbody>
+     <tfoot style="background-color:rgb(152, 182, 152);">
+         <tr>
+             <th colspan="4">small size but perfect taste</th>
+            </tr>
+        </tfoot>
+       
+      
+   </table>
+       
+       
+          <br> <img src="https://logowik.com/content/uploads/images/burger-king-new-20218389.jpg" alt="" width="20%"> <br>
+          <div class=“star_rating”>
+           <button class="star">&#9734;</button>
+           <button class="star">&#9734;</button>
+           <button class="star">&#9734;</button>
+           <button class="star">&#9734;</button>
+           </div>
+           <script>
+           const allsatrs = document.querySelectorAll('.star');
+           
+           allsatrs.forEach((star,i)=> {
+           star.onclick= function(){
+               let current_star_level= i+1;
+               allsatrs.forEach((star,j) =>{
+                   if(current_star_level>= j+1){
+                       star.innerHTML='&#9733';}
+                       else{
+                           star.innerHTML='&#9734';
+                       }
+                   })
+               }
+           })
+               
+           
+           
+           </script>
+           <table border="1" width="50%"  align="center" height="10%" style="border-collapse: collapse;">
+               
+                   <caption  style="background-color:rgb(167, 212, 116) ;"><h1> Burger King </h1></caption> <br>
+               
+                   
+                <thead style="background-color:khaki;">
+                <tr>
+                    <th> Taste</td>
+                   <th> Price</td>
+                   <th> Size</td>
+                   <th> Packaging</td>
+                   
+                </tr>
+                </thead>
+                <tbody style="background-color: khaki;">
+                    <tr>
+                        <td> 8/10</td>
+                        <td> High </td>
+                        <td>10/10 </td>
+                        <td>10/10 </td>
+                    </tr>
+                </tbody>
+                <tfoot style="background-color:rgb(152, 182, 152);">
+                    <tr>
+                        <th colspan="4">Good service and taste but not perfect</th>
+                    </tr>
+                </tfoot>
+               
+              
+           </table>
+           
+   
+          <br> <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png" width="20%" alt=""> <br>
+          <div class=“star_rating”>
+           <button class="star">&#9734;</button>
+           <button class="star">&#9734;</button>
+           <button class="star">&#9734;</button>
+           <button class="star">&#9734;</button>
+           </div>
+           <script>
+           const allStars = document.querySelectorAll('.star');
+           
+           allStars.forEach((star,i)=> {
+           star.onclick= function(){
+               let current_star_level= i+1;
+               allStars.forEach((star,j) =>{
+                   if(current_star_level>= j+1){
+                       star.innerHTML='&#9733';}
+                       else{
+                           star.innerHTML='&#9734';
+                       }
+                   })
+               }
+           })
+               
+           
+           
+           </script><table border="1" width="50%"  align="center" height="10%" style="border-collapse: collapse;">
+               
+           <caption  style="background-color:rgb(167, 212, 116) ;"><h1> KFC</h1></caption> <br>
+       
+           
+        <thead style="background-color:khaki;">
+        <tr>
+            <th> Taste</td>
+           <th> Price</td>
+           <th> Size</td>
+           <th> Packaging</td>
+           
+        </tr>
+        </thead>
+        <tbody style="background-color: khaki;">
+            <tr>
+                <td> 7.5/10</td>
+                <td> cheap </td>
+                <td>9/10 </td>
+                <td> 10/10</td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color:rgb(152, 182, 152);">
+            <tr>
+                <th colspan="4">Bad quality control among different stores</th>
+            </tr>
+        </tfoot>
+       
+      
+   </table>
+           
+       </body>
+   </html>       

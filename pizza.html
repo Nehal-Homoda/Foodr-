@@ -1,0 +1,275 @@
+<!DOCTYPE html
+>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Pizza Review</title>
+        <style>
+            body{
+background-image: url(https://i.pinimg.com/originals/a3/e0/6c/a3e06c8f7b389ecacdbcd59f2b29fc17.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:100% 100%;
+width: 100%;
+height: 100%;
+ }
+.star_rating {
+user-select: none;
+}
+.star{
+font-size: 3rem;
+color: #fcb03e;
+background-color: unset;
+border: none;
+
+
+}
+.star:hover {
+cursor: pointer;
+}
+          
+  table{
+      margin:-15% 10% 10% 25%;
+  }          
+        </style>
+       
+        
+    </head>
+    <body>
+        <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/2048px-Dominos_pizza_logo.svg.png" width="20%"> 
+        
+
+<div class=“star_rating”>
+<button class="star">&#9734;</button>
+<button class="star">&#9734;</button>
+<button class="star">&#9734;</button>
+<button class="star">&#9734;</button>
+</div>
+<script>
+const allSatrs = document.querySelectorAll('.star');
+
+allSatrs.forEach((star,i)=> {
+star.onclick= function(){
+    let current_star_level= i+1;
+    allSatrs.forEach((star,j) =>{
+        if(current_star_level>= j+1){
+            star.innerHTML='&#9733';}
+            else{
+                star.innerHTML='&#9734';
+            }
+        })
+    }
+})
+    
+
+
+</script>
+        </div>
+
+
+        <table border="1" width="50%"  align="center" height="10%" style="border-collapse: collapse;"  > 
+            
+            <caption style="background-color:rgb(167, 212, 116) ;"> <h2>Domino's  </h2></caption> 
+        
+            
+         <thead style="background-color:khaki;">
+         <tr>
+             <th> Taste</td>
+            <th> Price</td>
+            <th> Size</td>
+            <th> Packaging</td>
+            
+         </tr>
+         </thead>
+         <tbody style="background-color: khaki;">
+             <tr>
+                 <td> 10/10</td>
+                 <td> Moderate</td>
+                 <td> 8/10</td>
+                 <td>9/10 </td>
+             </tr>
+         </tbody>
+         <tfoot style="background-color:rgb(152, 182, 152);">
+             <tr>
+                 <th colspan="4">They have special paste ever ,Refer to good value for the price ,Now there Pizza is the Top</th>
+             </tr>
+         </tfoot>
+        
+       
+    </table> 
+    <div>
+     <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/d/d2/Pizza_Hut_logo.svg/2177px-Pizza_Hut_logo.svg.png" width="20%"> 
+     <div class=“star_rating”>
+        <button class="star">&#9734;</button>
+        <button class="star">&#9734;</button>
+        <button class="star">&#9734;</button>
+        <button class="star">&#9734;</button>
+        </div>
+        <script>
+        const alSatrs = document.querySelectorAll('.star');
+        
+        alSatrs.forEach((star,i)=> {
+        star.onclick= function(){
+            let current_star_level= i+1;
+            alSatrs.forEach((star,j) =>{
+                if(current_star_level>= j+1){
+                    star.innerHTML='&#9733';}
+                    else{
+                        star.innerHTML='&#9734';
+                    }
+                })
+            }
+        })
+            
+        
+        
+        </script>
+     <table border="1" width="50%"  align="center" height="10%" style="border-collapse: collapse;">
+            
+        <caption  style="background-color:rgb(167, 212, 116) ;"> <h1>Pizza Hut</h1></caption><br>
+    
+        
+     <thead style="background-color:khaki;">
+     <tr>
+         <th> Taste</td>
+        <th> Price</td>
+        <th> Size</td>
+        <th> Packaging</td>
+        
+     </tr>
+     </thead>
+     <tbody style="background-color: khaki;">
+         <tr>
+             <td> 9.5/10</td>
+             <td>High </td>
+             <td> 8/10</td>
+             <td> 10/10</td>
+         </tr>
+     </tbody>
+     <tfoot style="background-color:rgb(152, 182, 152);">
+         <tr>
+             <th colspan="4">Occupies second place after Dominos,Pizza that is both delicious and value for money</th>
+         </tr>
+     </tfoot>
+    
+   
+</table>
+    
+    
+       <br> <img src="https://www.logo.wine/a/logo/Papa_John's_Pizza/Papa_John's_Pizza-Logo.wine.svg" alt="" width="20%"> <br>
+       <div class=“star_rating”>
+        <button class="star">&#9734;</button>
+        <button class="star">&#9734;</button>
+        <button class="star">&#9734;</button>
+        <button class="star">&#9734;</button>
+        </div>
+        <script>
+        const allsatrs = document.querySelectorAll('.star');
+        
+        allsatrs.forEach((star,i)=> {
+        star.onclick= function(){
+            let current_star_level= i+1;
+            allsatrs.forEach((star,j) =>{
+                if(current_star_level>= j+1){
+                    star.innerHTML='&#9733';}
+                    else{
+                        star.innerHTML='&#9734';
+                    }
+                })
+            }
+        })
+            
+        
+        
+        </script>
+        <table border="1" width="50%"  align="center" height="10%" style="border-collapse: collapse;">
+            
+                <caption  style="background-color:rgb(167, 212, 116) ;"><h1> PAPA JOHN'S </h1></caption> <br>
+            
+                
+             <thead style="background-color:khaki;">
+             <tr>
+                 <th> Taste</td>
+                <th> Price</td>
+                <th> Size</td>
+                <th> Packaging</td>
+                
+             </tr>
+             </thead>
+             <tbody style="background-color: khaki;">
+                 <tr>
+                     <td> 8/10</td>
+                     <td> High </td>
+                     <td>10/10 </td>
+                     <td>10/10 </td>
+                 </tr>
+             </tbody>
+             <tfoot style="background-color:rgb(152, 182, 152);">
+                 <tr>
+                     <th colspan="4">Occupies third place after Pizza hut ,They are known for time commitment</th>
+                 </tr>
+             </tfoot>
+            
+           
+        </table>
+        
+
+       <br> <img src="data:image/jpeg;base64,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" alt=""> <br>
+       <div class=“star_rating”>
+        <button class="star">&#9734;</button>
+        <button class="star">&#9734;</button>
+        <button class="star">&#9734;</button>
+        <button class="star">&#9734;</button>
+        </div>
+        <script>
+        const allStars = document.querySelectorAll('.star');
+        
+        allStars.forEach((star,i)=> {
+        star.onclick= function(){
+            let current_star_level= i+1;
+            allStars.forEach((star,j) =>{
+                if(current_star_level>= j+1){
+                    star.innerHTML='&#9733';}
+                    else{
+                        star.innerHTML='&#9734';
+                    }
+                })
+            }
+        })
+            
+        
+        
+        </script><table border="1" width="50%"  align="center" height="10%" style="border-collapse: collapse;">
+            
+        <caption  style="background-color:rgb(167, 212, 116) ;"><h1> PRIMO'S</h1></caption> <br>
+    
+        
+     <thead style="background-color:khaki;">
+     <tr>
+         <th> Taste</td>
+        <th> Price</td>
+        <th> Size</td>
+        <th> Packaging</td>
+        
+     </tr>
+     </thead>
+     <tbody style="background-color: khaki;">
+         <tr>
+             <td> 7.5/10</td>
+             <td> cheap </td>
+             <td>9/10 </td>
+             <td> 10/10</td>
+         </tr>
+     </tbody>
+     <tfoot style="background-color:rgb(152, 182, 152);">
+         <tr>
+             <th colspan="4">Occupies fourth place after PAPA JOHN ,Your favourite cheesy american pizza</th>
+         </tr>
+     </tfoot>
+    
+   
+</table>
+        
+    </body>
+</html>
